@@ -60,7 +60,9 @@ let crew = [superChimpOne, salamander, superChimpTwo, dog, waterBear];
 // Print out the relevant information about each animal.
 
 function crewReports(testObj) {
-    for (i = 0; i < )
+    for (i = 0; i < testObj.length; i++) {
+
+    }
     console.log(`${testObj.name} is a ${testObj.species}. They are ${testObj.age} years old and ${testObj.mass} kilograms. Their ID is ${testObj.astronautID}.`);
 }
 
